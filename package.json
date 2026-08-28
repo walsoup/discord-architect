@@ -1,0 +1,20 @@
+{
+  "name": "discord-architect",
+  "version": "1.0.0",
+  "description": "Locally-run AI agent to plan and restructure Discord servers via OpenAI and Discord.js",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/verify.js"
+  },
+  "keywords": ["discord", "ai", "agent", "openai", "server-architect"],
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.86.1",
+    "zod": "^3.24.2"
+  }
+}
